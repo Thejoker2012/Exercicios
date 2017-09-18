@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main (){
+  int n;
+    printf("Digite o numero : ");
+    scanf("%i",&n);
+  if (n%2==0)
+{
+   printf("e par!");
+}
+  else
+{
+    printf("e impar!");
+}
+}
