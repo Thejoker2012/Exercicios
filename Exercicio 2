@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main (){
+  int n1,var;
+    printf("Digite o Numero:");
+    scanf("%i",&n1);
+var = n1 % 2;
+  if (var ==0){
+    printf("O proximo numero par e: %i",n1+2);
+}
+  else
+    {
+    printf("O proximo numero par e: %i",n1+1);
+}
+}
