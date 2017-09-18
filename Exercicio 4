@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+  void main (){
+    float n1;
+      printf("Digite o primeiro numero:");
+      scanf("%f",&n1);
+  if (n1 > 0){
+    printf("Positivo");
+}
+  else if (n1 < 0){
+    printf("Negativo");
+}
+}
+
