@@ -1,0 +1,39 @@
+# include < stdio.h >
+
+void  main () { 
+
+	int x, y, z;
+	
+	scanf("%d",&x);
+	scanf("%d",&y);
+	scanf("%d",&z);	
+	
+	se((x> y) && (x> z)){
+		printf("O número maior é:%d\n",x);
+	}
+	
+	se((y> x) && (y> z)){
+		printf(" O número maior é:%d\n",y);
+	}
+
+	se((z> x) && (z> y)){
+		printf("O número maior é:%d\n",z);
+	}
+
+	se(x == y && x == z){
+		printf(" O número maior é:%d\n",x);
+	}
+		
+	se((x == y) && (x> z)){
+		printf("O número maior é:%d\n",x);	
+	}
+
+	se((x == z) && (x> y)){
+		printf("O número maior é:%d\n",x);	
+	}
+	
+	se((z == y) && (y> x)){
+		printf("O número maior é:%d\n",y);	
+	}
+
+}
