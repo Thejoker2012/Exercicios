@@ -1,0 +1,19 @@
+// o include representa a biblioteca de entrada e saida
+#include <stdio.h>
+// Função principal 
+int main(){
+// Dentro do float ou int, expresso minhas variáveis
+  float distancia, tempo, velocidademedia;
+  
+  printf("Digite a distancia percorrida: ");
+  scanf("%f",&distancia);
+  
+  printf("Digite o tempo gasto: ");
+  scanf("%f",&tempo);
+  
+velocidademedia = distancia/tempo;
+  
+  printf("Sua velocidade media foi %.2f",velocidademedia);
+
+  return 0;
+}
