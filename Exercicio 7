@@ -1,0 +1,22 @@
+int  main () {
+
+    float n1, n2, n3, soma;
+
+    printf("Digite a primeira nota: ");
+    scanf("%f",&n1);
+
+    printf("Digite a segunda nota: ");
+    scanf("%f",&n2);
+
+    printf("Digite a terceira nota: ");
+    scanf("%f",&n3);
+
+    soma = n1 + n2 + n3;
+
+    se (soma >= 60.0) {
+        printf("Aprovado com % .2f pontos",soma);
+    } else {
+        printf("Reprovado com %.2f pontos",soma);
+    }
+
+    return  0 ;
